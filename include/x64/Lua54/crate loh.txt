@@ -1,5 +1,6 @@
-C:\MyFiles\Lua\lua-5.4.1\lua-5.4.1\src\luac.exe -o C:\Users\panki\source\c_Lua\qlua-luacom-master\_include\x64\Lua54\luacom5.loh C:\Users\panki\source\c_Lua\qlua-luacom-master\src\library\luacom5.lua
+luac.exe -o luacom5.loh luacom5.lua
 
-C:\MyFiles\Lua\lua-5.4.1\lua.exe C:\Users\panki\source\c_Lua\qlua-luacom-master\mak\bin2c.lua +luacom5.lua luacom5.lua > luacom5.loh
+lua.exe bin2c.lua +luacom5.lua luacom5.lua > luacom5.loh
+
 
 потом меняем переменные в lua как было в проекте для lua 53
